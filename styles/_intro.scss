@@ -31,7 +31,10 @@ nav {
   h2 {
     font-size: 7rem;
     padding-top: 2rem;
-    background: $gradient;
+    background: linear-gradient(#c638d3, #d6922b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  background-clip: text;
     
   }
   h3 {
